@@ -68,6 +68,10 @@
                 <input type="radio" name="time" value="pm"> 12:00pm - 12:00am
                 <input type="radio" name="time" value="wat"> Time is an illusion
             </label>
+            <br>
+            <label>Day you want the melons:
+                <input type="date" name="deliverdate">
+            </label>
               <br>
             <label>
                 Returning Customer? <input type="radio" name="returning" value="yes"> Yes
@@ -83,10 +87,16 @@
             </label>
             <br>
             <label> What kind of melon would you like us to carry?
-                <input type="text" name="new_melon" placeholder="melon name here">
+                <textarea col="25" rows="3" name="new_melon" placeholder="melon name(s) here">
+                </textarea>
             </label>
+            <br>
+            <label>Email:
+                <input type="email" name="email" required placeholder="we want to spam you about melons">
+            </label>
+            <br>
             <input type="submit">
-       
+
         </form>
        
         <footer>
